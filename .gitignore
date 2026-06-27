@@ -1,0 +1,9 @@
+# Ignore compiled C files
+
+*.exe
+*.out
+
+# Ignore runtime-generated data files
+
+notes.txt
+todo.txt
