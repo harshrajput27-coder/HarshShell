@@ -1,92 +1,173 @@
-\# HarshShell
+# HarshShell
 
+HarshShell is a terminal-based mini shell project I built in C while learning programming fundamentals.
 
+I started this project to practice C in a practical way instead of only solving textbook problems. The idea was simple: make my own small command-line shell and keep improving it version by version.
 
-A mini terminal shell built in C as a learning project.
+Each version taught me something new, and instead of replacing old code, I kept every version to track my progress.
 
+---
 
+## How it started
 
-\## Features
+At first, HarshShell was just a loop that could take input and respond to simple commands like:
 
-\- Greeting commands
+* hello
+* help
+* about
+* exit
 
-\- Calculator
+It was basic, but it helped me understand how command-based programs work.
 
-\- Age utility
+From there, I kept adding features.
 
-\- Save and read notes
+---
 
-\- Todo list system
+## Progress Through Versions
 
-\- Mark tasks complete
+### V1
 
-\- Delete tasks
+The starting point.
 
-\- Persistent storage using files
+What I built:
 
+* basic command system
+* help menu
+* greeting command
+* about command
+* quote command
 
+What I learned:
 
-\## Versions
+* functions
+* if-else chains
+* strcmp()
+* loops
 
-\### V1
+---
 
-Basic shell commands
+### V2
 
+Added useful commands.
 
+New features:
 
-\### V2
+* calculator
+* age checker
 
-Added calculator and age utility
+What I learned:
 
+* scanf()
+* handling user input
+* arithmetic logic
 
+---
 
-\### V3
+### V3
 
-Added note saving system
+Added file handling.
 
+New features:
 
+* save notes
+* read notes
 
-\### V4
+This was the first time my program could store data permanently.
 
-Added todo list using arrays and structs
+What I learned:
 
+* fopen()
+* fprintf()
+* fgets()
+* fclose()
 
+---
 
-\### V5
+### V4
 
-Added dynamic memory allocation, task completion, and task deletion
+Built a todo list.
 
+New features:
 
+* add task
+* show tasks
+* multiple task storage
 
-\## Concepts Learned
+What I learned:
 
-\- Functions
+* arrays
+* structs
+* storing grouped data
 
-\- Conditionals
+This was where the project started feeling like an actual tool.
 
-\- Loops
+---
 
-\- Arrays
+### V5 (Current)
 
-\- Structs
+This version made the todo system much better.
 
-\- File handling
+New features:
 
-\- Dynamic memory allocation
+* mark tasks complete
+* delete tasks
+* save tasks in file
+* load tasks when program starts
+* dynamic memory allocation using malloc()
 
-\- Command parsing
+What I learned:
 
+* pointers
+* malloc() and free()
+* keeping data synced with files
+* shifting array elements after deletion
 
+This version taught me the most.
 
-\## Future Improvements
+---
 
-\- Better command parser
+## Current Commands
 
-\- Custom commands
+* hello
+* help
+* about
+* version
+* quote
+* age
+* calc
+* savenote
+* readnote
+* addtask
+* showtask
+* markcomplete
+* deletetask
+* exit
 
-\- Search notes
+---
 
-\- Edit tasks
+## What this project taught me
 
-\- Colored terminal output
+This project helped me understand:
 
+* how bigger programs are structured
+* how to break code into functions
+* how file handling works
+* how data stays persistent
+* how memory allocation works
+* how to improve a project step by step
+
+More importantly, it taught me how to debug my own code.
+
+---
+
+## Why this project matters to me
+
+This is one of the first projects where I felt like I was actually building something useful.
+
+It may be simple, but it represents my progress in C and my habit of improving things instead of abandoning them.
+
+I plan to keep building on it.
+
+---
+
+Built by Harsh Rajput
